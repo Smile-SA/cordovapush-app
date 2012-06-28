@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'cordovapush' target in the 'cordovapush' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
