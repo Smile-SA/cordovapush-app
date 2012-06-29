@@ -1,5 +1,9 @@
+// Created by Smile. 
+// http://www.smile.fr
+// https://github.com/smile-mobile
+// MIT Licensed
 /**
- * Main JS
+ * An unified interface for handling the push notification for iOS and Android
  */
 var cordovapushapp = {};
 
@@ -46,37 +50,34 @@ cordovapushapp.init = function(onregistration, onmessage, onerror, deviceType) {
  */
 cordovapushapp.subscribe = function() {
     if(cordovapushapp.deviceType === "android"){
+        //registering for Android
         window.plugins.C2DM.register(cordovapushapp.c2dmSenderId, "C2DM_Event", C2DM_Success, C2DM_Fail);
     }else if(cordovapushapp.deviceType === "ios"){
+        //registering for iOS
         window.plugins.pushNotification.registerDevice({
             alert : true,
             badge : true,
             sound : true
         }, function(status) {
             console.warn('registerDevice: ' + status.deviceToken);
-                //navigator.notification.alert(JSON.stringify([ 'registerDevice', status ]));
+            //navigator.notification.alert(JSON.stringify([ 'registerDevice', status ]));
             callSubscriptionServiceOnPushServer(status.deviceToken, pushConfig.subscribePushServerURL);
-           /* window.plugins.pushNotification.setApplicationIconBadgeNumber(12, function(status) {
-                console.warn('setApplicationIconBadgeNumber:'+ JSON.stringify(status));
-                    navigator.notification.alert(JSON.stringify(['setBadge', status]));
-            });*/
             
             document.addEventListener('push-notification', function(event) {
-				console.warn('push-notification!:'+ JSON.stringify(event));	
+                //console.warn('push-notification!:'+ JSON.stringify(event));	
+				cordovapushapp.onmessage(event);
 				//navigator.notification.alert(JSON.stringify([ 'push-notification!', event ]));
 			});
             
             window.plugins.pushNotification.getPendingNotifications(function(notifications) {
                 console.warn('getPendingNotifications:'+ JSON.stringify(notifications));
-                    //navigator.notification.alert(JSON.stringify(['getPendingNotifications', notifications]));
+                //navigator.notification.alert(JSON.stringify(['getPendingNotifications', notifications]));
             });
             
             window.plugins.pushNotification.getRemoteNotificationStatus(function(status) {
                 console.warn('getRemoteNotificationStatus:'+ JSON.stringify(status));
-                    //navigator.notification.alert(JSON.stringify(['getRemoteNotificationStatus', status]));
+                //navigator.notification.alert(JSON.stringify(['getRemoteNotificationStatus', status]));
             });
-
-            
         });
     }else{
         console.log("device type not supported");
@@ -118,8 +119,7 @@ function C2DM_Event(e) {
 }
 
 function C2DM_Success(e) {
-	console
-			.log('C2DM_Success -> We have successfully registered and called the C2DM plugin, waiting for C2DM_Event:registered -> REGID back from Google');
+	console.log('C2DM_Success -> We have successfully registered and called the C2DM plugin, waiting for C2DM_Event:registered -> REGID back from Google');
 }
 
 function C2DM_Fail(e) {

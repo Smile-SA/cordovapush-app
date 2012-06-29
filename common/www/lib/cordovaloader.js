@@ -1,9 +1,12 @@
+// Created by Smile. 
+// http://www.smile.fr
+// https://github.com/smile-mobile
+// MIT Licensed
 /**
- * @author erpla
- * 
  * Cordova loader<br>
  * A simple loader for the different Cordova files depending on the platform. It
  * provides cordovaloader.debug to true if platform is not recognized.
+ * TODO support for Windows Phone & BlackBerry 
  */
 cordovaloader = (function() {
 	var $ = {};
@@ -38,5 +41,4 @@ cordovaloader = (function() {
 	};
 
 	return $;
-
 })();
