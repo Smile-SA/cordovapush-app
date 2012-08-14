@@ -4,15 +4,12 @@
 // MIT Licensed
 /**
  * Cordova loader<br>
- * A simple loader for the different Cordova files depending on the platform. It
- * provides cordovaloader.debug to true if platform is not recognized.
- * TODO support for Windows Phone & BlackBerry 
+ * A simple loader for the different Cordova files depending on the platform.<br>
+ * It provides cordovaloader.debug to true if platform is not recognized.
  */
-cordovaloader = (function() {
-	var $ = {};
-
-	$.debug = false;
-    $.device = '';
+var cordovaloader = (function(cordovaloader) {
+	cordovaloader.debug = false;
+	cordovaloader.device = '';
 
 	/**
 	 * Loads the right Cordova file
@@ -24,21 +21,23 @@ cordovaloader = (function() {
 	 *            the prefix name of your cordova files. e.g : cordova-1.8.1
 	 * 
 	 */
-	$.load = function(dir, filename) {
+	cordovaloader.load = function(dir, filename) {
 		var useragent = navigator.userAgent;
+
 		if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('iPad') != -1) {
 			document.write('<script type="text/javascript" charset="utf-8" src="' + dir + '/' + filename
 					+ '-ios.js"><\/script>');
-            $.device = 'ios';
+			cordovaloader.device = 'ios';
 		} else if (useragent.indexOf('Android') != -1) {
 			document.write('<script type="text/javascript" charset="utf-8" src="' + dir + '/' + filename
 					+ '-android.js"><\/script>');
-            $.device = 'android';
+			cordovaloader.device = 'android';
 		} else {
-			$.debug = true;
-            $.device = 'web';
+			cordovaloader.debug = true;
+			cordovaloader.device = 'web';
 		}
 	};
 
-	return $;
-})();
+	return cordovaloader;
+
+})(cordovaloader || {});

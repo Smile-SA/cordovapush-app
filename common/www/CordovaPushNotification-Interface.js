@@ -62,22 +62,28 @@ cordovapushapp.subscribe = function() {
             console.warn('registerDevice: ' + status.deviceToken);
             //navigator.notification.alert(JSON.stringify([ 'registerDevice', status ]));
             callSubscriptionServiceOnPushServer(status.deviceToken, pushConfig.subscribePushServerURL);
+           /* window.plugins.pushNotification.setApplicationIconBadgeNumber(12, function(status) {
+                console.warn('setApplicationIconBadgeNumber:'+ JSON.stringify(status));
+                    navigator.notification.alert(JSON.stringify(['setBadge', status]));
+            });*/
             
             document.addEventListener('push-notification', function(event) {
-                //console.warn('push-notification!:'+ JSON.stringify(event));	
+				//console.warn('push-notification!:'+ JSON.stringify(event));	
 				cordovapushapp.onmessage(event);
 				//navigator.notification.alert(JSON.stringify([ 'push-notification!', event ]));
 			});
             
             window.plugins.pushNotification.getPendingNotifications(function(notifications) {
                 console.warn('getPendingNotifications:'+ JSON.stringify(notifications));
-                //navigator.notification.alert(JSON.stringify(['getPendingNotifications', notifications]));
+                    //navigator.notification.alert(JSON.stringify(['getPendingNotifications', notifications]));
             });
             
             window.plugins.pushNotification.getRemoteNotificationStatus(function(status) {
                 console.warn('getRemoteNotificationStatus:'+ JSON.stringify(status));
-                //navigator.notification.alert(JSON.stringify(['getRemoteNotificationStatus', status]));
+                    //navigator.notification.alert(JSON.stringify(['getRemoteNotificationStatus', status]));
             });
+
+            
         });
     }else{
         console.log("device type not supported");
@@ -119,7 +125,8 @@ function C2DM_Event(e) {
 }
 
 function C2DM_Success(e) {
-	console.log('C2DM_Success -> We have successfully registered and called the C2DM plugin, waiting for C2DM_Event:registered -> REGID back from Google');
+	console
+			.log('C2DM_Success -> We have successfully registered and called the C2DM plugin, waiting for C2DM_Event:registered -> REGID back from Google');
 }
 
 function C2DM_Fail(e) {

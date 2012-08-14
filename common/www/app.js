@@ -3,14 +3,12 @@
 // https://github.com/smile-mobile
 // MIT Licensed
 /**
- *  app specific JS
+ * app specific JS
  */
-var app = (function() {
-
-	var $ = {};
+var app = (function(app) {
 
 	/**
-	 * callback function to execute on push registration
+	 * callback function to execute on registration
 	 */
 	var onregistration = function(event) {
 		var li = '<li>REGISTERED -> REGID:' + event.regid + '</li>';
@@ -18,7 +16,7 @@ var app = (function() {
 	};
 
 	/**
-	 * callback function to execute on push message reception
+	 * callback function to execute on message
 	 */
 	var onmessage = function(event) {
 		var data = JSON.parse(event.data);
@@ -37,13 +35,13 @@ var app = (function() {
 	/**
 	 * App init
 	 */
-	$.start = function() {
-			cordovapushapp.init(onregistration, onmessage, onerror, cordovaloader.device);
-			cordovapushapp.subscribe();
-			jQuery("#unsubscribe").bind('click', function() {
-				cordovapushapp.unsubscribe();
-			});
+	app.start = function() {
+		cordovapushapp.init(onregistration, onmessage, onerror, cordovaloader.device);
+		cordovapushapp.subscribe();
+		jQuery("#unsubscribe").bind('click', function() {
+			cordovapushapp.unsubscribe();
+		});
 	};
 
-	return $;
-})();
+	return app;
+})(app || {});
