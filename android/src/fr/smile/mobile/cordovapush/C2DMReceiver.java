@@ -67,26 +67,20 @@ public class C2DMReceiver extends C2DMBaseReceiver {
 	protected void onMessage(Context context, Intent intent) {
 		Log.v(ME + ":onMessage", "Message: Fantastic!!!");
 		// Extract the payload from the message
-		Bundle extras = intent.getExtras();
-		if (extras != null) {
-			try {
-				Log.v(ME + ":onMessage extras ", extras.getString("data"));
-				
-				// 1 - create notification on status bar
-				JSONObject data = (JSONObject) new JSONTokener(extras.getString("data")).nextValue();
-				String title = data.getString("title");
-				String message = data.getString("message");
-				createNotification(context, title, message);
+		try {
+			// 1 - create notification on status bar
+			String title = intent.getStringExtra("title");
+			String message = intent.getStringExtra("message");
+			createNotification(context, title, message);
 
-				// 2 - delegate push message to the app
-				JSONObject json;
-				json = new JSONObject().put("event", "message");
-				json.put("data", data.toString());
-				Log.v(ME + ":onMessage ", json.toString());
-				C2DMPlugin.sendJavascript(json);
-			} catch (JSONException e) {
-				Log.e(ME + ":onMessage", "JSON exception");
-			}
+			// 2 - delegate push message to the app
+			JSONObject json;
+			json = new JSONObject().put("event", "message");
+			json.put("data", "{'title':" + title + ", 'message':" + message + "}");
+			Log.v(ME + ":onMessage ", json.toString());
+			C2DMPlugin.sendJavascript(json);
+		} catch (JSONException e) {
+			Log.e(ME + ":onMessage", "JSON exception");
 		}
 	}
 
