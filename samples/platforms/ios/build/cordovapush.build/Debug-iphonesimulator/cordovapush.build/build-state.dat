@@ -1,0 +1,855 @@
+Tcordovapush
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Info.plist cordovapush/cordovapush-Info.plist
+cPhaseScriptExecution "Touch www folder" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Script-304B58A110DAC018002A0835.sh
+cCpResource www cordova/../build/cordovapush.app/www
+cCopyPlistFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Cordova.plist cordovapush/Resources/../Cordova.plist
+cCpResource cordovapush/Resources/icons/icon-72.png cordova/../build/cordovapush.app/icon-72.png
+cCpResource cordovapush/Resources/icons/icon.png cordova/../build/cordovapush.app/icon.png
+cCpResource cordovapush/Resources/icons/icon@2x.png cordova/../build/cordovapush.app/icon@2x.png
+cCpResource cordovapush/Resources/Capture.bundle cordova/../build/cordovapush.app/Capture.bundle
+cCopyStringsFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/en.lproj/Localizable.strings cordovapush/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/es.lproj/Localizable.strings cordovapush/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.xib
+cCopyStringsFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/de.lproj/Localizable.strings cordovapush/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/se.lproj/Localizable.strings cordovapush/Resources/se.lproj/Localizable.strings
+cCpResource cordovapush/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/cordovapush.app/Default-Landscape@2x~ipad.png
+cCpResource cordovapush/Resources/splash/Default-Landscape~ipad.png cordova/../build/cordovapush.app/Default-Landscape~ipad.png
+cCpResource cordovapush/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/cordovapush.app/Default-Portrait@2x~ipad.png
+cCpResource cordovapush/Resources/splash/Default-Portrait~ipad.png cordova/../build/cordovapush.app/Default-Portrait~ipad.png
+cCpResource cordovapush/Resources/splash/Default@2x~iphone.png cordova/../build/cordovapush.app/Default@2x~iphone.png
+cCpResource cordovapush/Resources/splash/Default~iphone.png cordova/../build/cordovapush.app/Default~iphone.png
+cCpResource cordovapush/Resources/splash/Default-568h@2x~iphone.png cordova/../build/cordovapush.app/Default-568h@2x~iphone.png
+cCpResource cordovapush/Plugins/PushNotification/README.md cordova/../build/cordovapush.app/README.md
+cProcessPCH /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch.pth cordovapush/cordovapush-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/main.o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/AppDelegate.o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/MainViewController.o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/PushNotification.o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush normal i386
+cGenerateDSYMFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app.dSYM /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush
+cTouch /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c0000000050A0C9100000000000000110
+t1352714512
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000050642AE000000000001EAFC0
+t1348741856
+s2011072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000050642ADF00000000000C0EF0
+t1348741855
+s790256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000050642AE00000000000193640
+t1348741856
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000050642AE000000000003D2B80
+t1348741856
+s4008832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000050642AE00000000000215D60
+t1348741856
+s2186592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050642AE10000000000228FD0
+t1348741857
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000050642AE1000000000009C220
+t1348741857
+s639520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000050642AE10000000000085620
+t1348741857
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050642AE300000000003DCEF0
+t1348741859
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000050642AE600000000002C6C10
+t1348741862
+s2911248
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000050642AE600000000000BCB50
+t1348741862
+s772944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000050642AE700000000001D57A0
+t1348741863
+s1922976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000050642AE8000000000006CC50
+t1348741864
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050642AEA0000000000AB3D60
+t1348741866
+s11222368
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/PushNotification.o
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/cordovapush.LinkFileList
+c0000000050AFA19B00000000000002CD
+t1353687451
+s717
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Script-304B58A110DAC018002A0835.sh
+c0000000050AFA19B0000000000000027
+t1353687451
+s39
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/libCordova.a
+c0000000050AFA19B000000000031A508
+t1353687451
+s3253512
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app.dSYM
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Capture.bundle
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Cordova.plist
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default~iphone.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Info.plist
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/MainViewController.nib
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/PkgInfo
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/README.md
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/icon-72.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/icon.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/icon@2x.png
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/www
+t2
+s0
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDV.h
+c0000000050AF9A2C0000000000000680
+t1353685548
+s1664
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVAccelerometer.h
+c0000000050AF9A2C00000000000004A4
+t1353685548
+s1188
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVAvailability.h
+c0000000050AF9A2C0000000000000A9E
+t1353685548
+s2718
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVBattery.h
+c0000000050AF9A2C000000000000053A
+t1353685548
+s1338
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVCamera.h
+c0000000050AF9A2C0000000000000C5E
+t1353685548
+s3166
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVCapture.h
+c0000000050AF9A2C000000000000123F
+t1353685548
+s4671
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVCommandDelegate.h
+c0000000050AF9A2C0000000000000865
+t1353685548
+s2149
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVConnection.h
+c0000000050AF9A2C000000000000043E
+t1353685548
+s1086
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVContact.h
+c0000000050AF9A2C0000000000001640
+t1353685548
+s5696
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVContacts.h
+c0000000050AF9A2C00000000000014AA
+t1353685548
+s5290
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVCordovaView.h
+c0000000050AF9A2C000000000000034E
+t1353685548
+s846
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVDebug.h
+c0000000050AF9A2C0000000000000401
+t1353685548
+s1025
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVDebugConsole.h
+c0000000050AF9A2C00000000000003B5
+t1353685548
+s949
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVDevice.h
+c0000000050AF9A2C00000000000003B5
+t1353685548
+s949
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVFile.h
+c0000000050AF9A2C0000000000000F3F
+t1353685548
+s3903
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVFileTransfer.h
+c0000000050AF9A2C0000000000000A64
+t1353685548
+s2660
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVInvokedUrlCommand.h
+c0000000050AF9A2C00000000000006DE
+t1353685548
+s1758
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVLocalStorage.h
+c0000000050AF9A2C00000000000006E4
+t1353685548
+s1764
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVLocation.h
+c0000000050AF9A2C0000000000000E2C
+t1353685548
+s3628
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVNotification.h
+c0000000050AF9A2C00000000000004B5
+t1353685548
+s1205
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVPlugin.h
+c0000000050AF9A2C00000000000008FD
+t1353685548
+s2301
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVPluginResult.h
+c0000000050AF9A2C0000000000000989
+t1353685548
+s2441
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVReachability.h
+c0000000050AF9A2C0000000000000FF4
+t1353685548
+s4084
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVSound.h
+c0000000050AF9A2C0000000000000C66
+t1353685548
+s3174
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVSplashScreen.h
+c0000000050AF9A2C00000000000003CB
+t1353685548
+s971
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVURLProtocol.h
+c0000000050AF9A2C00000000000004E3
+t1353685548
+s1251
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVViewController.h
+c0000000050AF9A2C0000000000000AD8
+t1353685548
+s2776
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVWhitelist.h
+c0000000050AF9A2C00000000000004AA
+t1353685548
+s1194
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/JSONKit.h
+c0000000050AF9A2C0000000000002F65
+t1353685548
+s12133
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/NSArray+Comparisons.h
+c0000000050AF9A2C0000000000000392
+t1353685548
+s914
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/NSData+Base64.h
+c0000000050AF9A2C000000000000037D
+t1353685548
+s893
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/NSDictionary+Extensions.h
+c0000000050AF9A2C00000000000005DA
+t1353685548
+s1498
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000050AF9A2C00000000000003A0
+t1353685548
+s928
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/UIDevice+Extensions.h
+c0000000050AF9A2C0000000000000476
+t1353685548
+s1142
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.h
+c0000000050AF558B00000000000005BB
+t1353667979
+s1467
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m
+c0000000050AF558B00000000000015AE
+t1353667979
+s5550
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.h
+c0000000050AF558B0000000000000410
+t1353667979
+s1040
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m
+c0000000050AF558B00000000000012F5
+t1353667979
+s4853
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.xib
+c0000000050AF558B0000000000001759
+t1353667979
+s5977
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.h
+c0000000050AF97AB00000000000004A7
+t1353684907
+s1191
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m
+c0000000050AF97CA0000000000001FCA
+t1353684938
+s8138
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/README.md
+c000000004FEC72220000000000002058
+t1340895778
+s8280
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/../Cordova.plist
+c0000000050AF949E0000000000000774
+t1353684126
+s1908
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/Capture.bundle
+c0000000050AF558B000000000000030E
+t1353667979
+s782
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/de.lproj/Localizable.strings
+c0000000050AF558B0000000000000485
+t1353667979
+s1157
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/en.lproj/Localizable.strings
+c0000000050AF558B0000000000000470
+t1353667979
+s1136
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/es.lproj/Localizable.strings
+c0000000050AF558B000000000000047D
+t1353667979
+s1149
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/icons/icon-72.png
+c0000000050AF558B0000000000001350
+t1353667979
+s4944
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/icons/icon.png
+c0000000050AF558B0000000000000F3E
+t1353667979
+s3902
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/icons/icon@2x.png
+c0000000050AF558B0000000000001EBD
+t1353667979
+s7869
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/se.lproj/Localizable.strings
+c0000000050AF558B0000000000000471
+t1353667979
+s1137
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-568h@2x~iphone.png
+c0000000050AF558B0000000000055EBB
+t1353667979
+s351931
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000050AF558B0000000000176888
+t1353667979
+s1534088
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-Landscape~ipad.png
+c0000000050AF558B00000000000674B7
+t1353667979
+s423095
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000050AF558B00000000001892C2
+t1353667979
+s1610434
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-Portrait~ipad.png
+c0000000050AF558B0000000000066F23
+t1353667979
+s421667
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default@2x~iphone.png
+c0000000050AF558B0000000000055981
+t1353667979
+s350593
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default~iphone.png
+c0000000050AF558B0000000000016EC9
+t1353667979
+s93897
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/cordovapush-Prefix.pch
+c0000000050AF558B00000000000003C7
+t1353667979
+s967
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/main.m
+c0000000050AF558B000000000000045D
+t1353667979
+s1117
+
+N/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/www
+c0000000050AF9B7C00000000000001BA
+t1353685884
+s442
+
+N/var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch.pth
+t2
+s0
+
+Ncordovapush/cordovapush-Info.plist
+c0000000050AFA19000000000000006C0
+t1353687440
+s1728
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese1eeb41bd95fb641^ddd1b71bd95fb641^---0#1#0#--18"Check dependencies36"7BB6B839-D340-41A7-9ACE-E16AA402C31F-
+
+CCompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/AppDelegate.o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375380253.526626
+e375380253.646980
+r1
+xCompileC
+xbuild/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/AppDelegate.o
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m:73:25: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]
+o    self.viewController.invokeString = invokeString;
+o                        ^
+o/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVViewController.h:43:50: note: 'invokeString' declared here
+o@property (nonatomic, readwrite, copy)NSString * invokeString CDV_DEPRECATED(2.0, "Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.");
+o                                                 ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m56f5861dd95fb641^ffb0a51dd95fb641^-837"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m:73:25: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]    self.viewController.invokeString = invokeString;                        ^/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVViewController.h:43:50: note: 'invokeString' declared here@property (nonatomic, readwrite, copy)NSString * invokeString CDV_DEPRECATED(2.0, "Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.");                                                 ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@161"'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.-375380253#18446744073709551615#0#1(2@28"'invokeString' declared here-375380253#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@134"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^42#49#42#49#1597#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@129"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m0000000000000000^72#24#72#24#2392#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@129"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m0000000000000000^4327"CompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/AppDelegate.o cordovapush/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-generated-files.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-own-target-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-all-target-headers.hmap -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-project-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/usr/local/lib/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/UninstalledProducts/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources/i386 -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources -F/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -include /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch -MMD -MT dependencies -MF /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/AppDelegate.dia -c /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/AppDelegate.m -o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/AppDelegate.o36"D9556495-4460-456B-B657-7314E14C317A-
+
+CCompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/MainViewController.o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375380253.569082
+e375380253.668106
+r1
+xCompileC
+xbuild/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/MainViewController.o
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m:125:14: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]
+o    if (self.invokeString) {
+o             ^
+o/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVViewController.h:43:50: note: 'invokeString' declared here
+o@property (nonatomic, readwrite, copy)NSString * invokeString CDV_DEPRECATED(2.0, "Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.");
+o                                                 ^
+o/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m:128:93: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]
+o        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
+o                                                                                            ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m88d7911dd95fb641^651cab1dd95fb641^-1340"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m:125:14: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]    if (self.invokeString) {             ^/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include/Cordova/CDVViewController.h:43:50: note: 'invokeString' declared here@property (nonatomic, readwrite, copy)NSString * invokeString CDV_DEPRECATED(2.0, "Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.");                                                 ^/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m:128:93: warning: 'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url. [-Wdeprecated-declarations]        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];                                                                                            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@161"'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.-375380253#18446744073709551615#0#1(2@28"'invokeString' declared here-375380253#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@134"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^42#49#42#49#1597#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@136"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m0000000000000000^124#13#124#13#3606#0#12"Deprecations--2@161"'invokeString' is deprecated: Deprecated in Cordova 2.0. Use window.handleOpenURL(url instead. It is called when the app is launched through a custom scheme url.-375380253#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@136"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m0000000000000000^127#92#127#92#4017#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@136"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m0000000000000000^4369"CompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/MainViewController.o cordovapush/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-generated-files.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-own-target-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-all-target-headers.hmap -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-project-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/usr/local/lib/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/UninstalledProducts/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources/i386 -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources -F/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -include /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch -MMD -MT dependencies -MF /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/MainViewController.dia -c /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.m -o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/MainViewController.o36"E239D269-FFF3-4495-BFE7-D1537AF3D50C-
+
+CCompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/PushNotification.o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375380253.648425
+e375380253.853878
+r1
+xCompileC
+xbuild/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/PushNotification.o
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m:81:115: warning: instance method '-JSONString' not found (return type defaults to 'id')
+o        NSString *jsStatement = [NSString stringWithFormat:@"window.plugins.pushNotification.notificationCallback(%@);", [userInfo JSONString]];
+o                                                                                                                         ^~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Compile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m5628a61dd95fb641^0b96da1dd95fb641^-533"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m:81:115: warning: instance method '-JSONString' not found (return type defaults to 'id')        NSString *jsStatement = [NSString stringWithFormat:@"window.plugins.pushNotification.notificationCallback(%@);", [userInfo JSONString]];                                                                                                                         ^~~~~~~~~~~~~~~~~~~~~1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@70"Instance method '-JSONString' not found (return type defaults to 'id')-375380253#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@151"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m0000000000000000^80#114#80#114#3112#0#14"Semantic Issue1(3@151"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m0000000000000000^80#114#80#135#3112#20#-0#0#0#-19%DVTDocumentLocation4@151"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m0000000000000000^4391"CompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/PushNotification.o cordovapush/Plugins/PushNotification/PushNotification.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-generated-files.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-own-target-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-all-target-headers.hmap -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-project-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/usr/local/lib/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/UninstalledProducts/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources/i386 -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources -F/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -include /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch -MMD -MT dependencies -MF /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/PushNotification.d --serialize-diagnostics /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/PushNotification.dia -c /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/PushNotification.m -o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/PushNotification.o36"76916BEF-07D1-46F4-99D3-277FFB6934BE-
+
+CCompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/main.o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375380253.526331
+e375380253.567804
+r1
+xCompileC
+xbuild/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/main.o
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/main.meee9861dd95fb641^3676911dd95fb641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/main.m0000000000000000^4269"CompileC build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/main.o cordovapush/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-generated-files.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-own-target-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-all-target-headers.hmap -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-project-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/usr/local/lib/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/UninstalledProducts/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources/i386 -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources -F/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -include /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch -MMD -MT dependencies -MF /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/main.dia -c /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/main.m -o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/main.o36"43A53DD4-DD4D-49C5-B794-2664B3201D77-
+
+CCompileXIB /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.xib
+s375380252.065752
+e375380253.029992
+r1
+xCompileXIB
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compiling /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.xibfeef101cd95fb641^e0b9071dd95fb641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.xib0000000000000000^1171"CompileXIB cordovapush/Classes/MainViewController.xib    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/MainViewController.nib /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"C135563C-976A-4FAE-B574-1494E5041A02-
+
+CCopyPlistFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Cordova.plist cordovapush/Resources/../Cordova.plist
+s375380251.771965
+e375380251.779857
+r1
+xCopyPlistFile
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Cordova.plist
+xcordovapush/Resources/../Cordova.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy cordovapush/Resources/../Cordova.plist28b7c51bd95fb641^4ab5c71bd95fb641^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/../Cordova.plist0000000000000000^718"CopyPlistFile cordova/../build/cordovapush.app/Cordova.plist cordovapush/Resources/../Cordova.plist    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyPlist --convert binary1 --outdir /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app -- cordovapush/Resources/../Cordova.plist36"EFC314EF-34E6-46A3-994B-221CE1BCD2F2-
+
+CCopyStringsFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/de.lproj/Localizable.strings cordovapush/Resources/de.lproj/Localizable.strings
+s375380252.066373
+e375380252.081250
+r1
+xCopyStringsFile
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/de.lproj/Localizable.strings
+xcordovapush/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy cordovapush/Resources/de.lproj/Localizable.stringsfd12111cd95fb641^38d7141cd95fb641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/de.lproj/Localizable.strings0000000000000000^809"CopyStringsFile cordova/../build/cordovapush.app/de.lproj/Localizable.strings cordovapush/Resources/de.lproj/Localizable.strings    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/de.lproj -- cordovapush/Resources/de.lproj/Localizable.strings36"9BDB3585-851B-43D1-8EF2-A3F2AB83032C-
+
+CCopyStringsFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/en.lproj/Localizable.strings cordovapush/Resources/en.lproj/Localizable.strings
+s375380251.814210
+e375380252.064217
+r1
+xCopyStringsFile
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/en.lproj/Localizable.strings
+xcordovapush/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy cordovapush/Resources/en.lproj/Localizable.strings9693d01bd95fb641^e59c101cd95fb641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/en.lproj/Localizable.strings0000000000000000^809"CopyStringsFile cordova/../build/cordovapush.app/en.lproj/Localizable.strings cordovapush/Resources/en.lproj/Localizable.strings    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/en.lproj -- cordovapush/Resources/en.lproj/Localizable.strings36"2BDAE4D2-65B1-494A-B1DA-E55AA2C00EBB-
+
+CCopyStringsFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/es.lproj/Localizable.strings cordovapush/Resources/es.lproj/Localizable.strings
+s375380251.815902
+e375380252.064483
+r1
+xCopyStringsFile
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/es.lproj/Localizable.strings
+xcordovapush/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy cordovapush/Resources/es.lproj/Localizable.stringsa9f7d01bd95fb641^4ca8101cd95fb641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/es.lproj/Localizable.strings0000000000000000^809"CopyStringsFile cordova/../build/cordovapush.app/es.lproj/Localizable.strings cordovapush/Resources/es.lproj/Localizable.strings    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/es.lproj -- cordovapush/Resources/es.lproj/Localizable.strings36"1B358D70-BF98-4D4B-A19C-AFC3533BEE0C-
+
+CCopyStringsFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/se.lproj/Localizable.strings cordovapush/Resources/se.lproj/Localizable.strings
+s375380252.082488
+e375380252.127937
+r1
+xCopyStringsFile
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/se.lproj/Localizable.strings
+xcordovapush/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy cordovapush/Resources/se.lproj/Localizable.stringsb037151cd95fb641^6ccf201cd95fb641^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/se.lproj/Localizable.strings0000000000000000^809"CopyStringsFile cordova/../build/cordovapush.app/se.lproj/Localizable.strings cordovapush/Resources/se.lproj/Localizable.strings    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/se.lproj -- cordovapush/Resources/se.lproj/Localizable.strings36"C8B9498F-0DA3-4AC2-8492-9ACDB0AF9D9B-
+
+CCpResource cordovapush/Plugins/PushNotification/README.md cordova/../build/cordovapush.app/README.md
+s375380252.167649
+e375380252.170546
+r1
+xCpResource
+xcordovapush/Plugins/PushNotification/README.md
+xcordova/../build/cordovapush.app/README.md
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy cordova/../build/cordovapush.app/README.md14042b1cd95fb641^10b32b1cd95fb641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/README.md000000000080d041^867"CpResource cordovapush/Plugins/PushNotification/README.md cordova/../build/cordovapush.app/README.md    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Plugins/PushNotification/README.md /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"83141C63-C800-4775-BBDC-D7E392649B7D-
+
+CCpResource cordovapush/Resources/Capture.bundle cordova/../build/cordovapush.app/Capture.bundle
+s375380251.802350
+e375380251.814546
+r1
+xCpResource
+xcordovapush/Resources/Capture.bundle
+xcordova/../build/cordovapush.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy cordova/../build/cordovapush.app/Capture.bundlec687cd1bd95fb641^a394d01bd95fb641^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Capture.bundle000000000080d041^852"CpResource cordovapush/Resources/Capture.bundle cordova/../build/cordovapush.app/Capture.bundle    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/Capture.bundle /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"61D2FB9E-6F36-4D85-94E3-D818AB5E258D-
+
+CCpResource cordovapush/Resources/icons/icon-72.png cordova/../build/cordovapush.app/icon-72.png
+s375380251.781151
+e375380251.790657
+r1
+xCpResource
+xcordovapush/Resources/icons/icon-72.png
+xcordova/../build/cordovapush.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy cordova/../build/cordovapush.app/icon-72.png8028c81bd95fb641^7975ca1bd95fb641^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/icon-72.png000000000080d041^855"CpResource cordovapush/Resources/icons/icon-72.png cordova/../build/cordovapush.app/icon-72.png    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/icons/icon-72.png /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"1DCBCAAA-D985-4D6A-99E2-7B497F8B9138-
+
+CCpResource cordovapush/Resources/icons/icon.png cordova/../build/cordovapush.app/icon.png
+s375380251.791994
+e375380251.795535
+r1
+xCpResource
+xcordovapush/Resources/icons/icon.png
+xcordova/../build/cordovapush.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy cordova/../build/cordovapush.app/icon.pngcae2ca1bd95fb641^63b7cb1bd95fb641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/icon.png000000000080d041^846"CpResource cordovapush/Resources/icons/icon.png cordova/../build/cordovapush.app/icon.png    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/icons/icon.png /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"514B27BE-B4B0-4B00-BA0C-19B895041FDF-
+
+CCpResource cordovapush/Resources/icons/icon@2x.png cordova/../build/cordovapush.app/icon@2x.png
+s375380251.796824
+e375380251.801018
+r1
+xCpResource
+xcordovapush/Resources/icons/icon@2x.png
+xcordova/../build/cordovapush.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy cordova/../build/cordovapush.app/icon@2x.png371acc1bd95fb641^b81ecd1bd95fb641^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/icon@2x.png000000000080d041^861"CpResource "cordovapush/Resources/icons/icon@2x.png" "cordova/../build/cordovapush.app/icon@2x.png"    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/icons/icon@2x.png" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"1DFFD16C-8E27-494C-980D-82ED3E518FAC-
+
+CCpResource cordovapush/Resources/splash/Default-568h@2x~iphone.png cordova/../build/cordovapush.app/Default-568h@2x~iphone.png
+s375380252.162951
+e375380252.166370
+r1
+xCpResource
+xcordovapush/Resources/splash/Default-568h@2x~iphone.png
+xcordova/../build/cordovapush.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy cordova/../build/cordovapush.app/Default-568h@2x~iphone.pngafd2291cd95fb641^7fa22a1cd95fb641^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-568h@2x~iphone.png000000000080d041^908"CpResource "cordovapush/Resources/splash/Default-568h@2x~iphone.png" "cordova/../build/cordovapush.app/Default-568h@2x~iphone.png"    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-568h@2x~iphone.png" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"482B879F-62AC-462B-AFA1-84094B0C818B-
+
+CCpResource cordovapush/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/cordovapush.app/Default-Landscape@2x~ipad.png
+s375380252.129258
+e375380252.135047
+r1
+xCpResource
+xcordovapush/Resources/splash/Default-Landscape@2x~ipad.png
+xcordova/../build/cordovapush.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy cordova/../build/cordovapush.app/Default-Landscape@2x~ipad.pngb037211cd95fb641^0394221cd95fb641^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-Landscape@2x~ipad.png000000000080d041^917"CpResource "cordovapush/Resources/splash/Default-Landscape@2x~ipad.png" "cordova/../build/cordovapush.app/Default-Landscape@2x~ipad.png"    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-Landscape@2x~ipad.png" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"DD29BBC2-88BB-41F2-94E8-C160DE76DF14-
+
+CCpResource cordovapush/Resources/splash/Default-Landscape~ipad.png cordova/../build/cordovapush.app/Default-Landscape~ipad.png
+s375380252.136387
+e375380252.140100
+r1
+xCpResource
+xcordovapush/Resources/splash/Default-Landscape~ipad.png
+xcordova/../build/cordovapush.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy cordova/../build/cordovapush.app/Default-Landscape~ipad.pnge606231cd95fb641^2dea231cd95fb641^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-Landscape~ipad.png000000000080d041^908"CpResource "cordovapush/Resources/splash/Default-Landscape~ipad.png" "cordova/../build/cordovapush.app/Default-Landscape~ipad.png"    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-Landscape~ipad.png" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"0CEC316F-EE8F-4D18-B034-9ED910FF7CBF-
+
+CCpResource cordovapush/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/cordovapush.app/Default-Portrait@2x~ipad.png
+s375380252.141371
+e375380252.146717
+r1
+xCpResource
+xcordovapush/Resources/splash/Default-Portrait@2x~ipad.png
+xcordova/../build/cordovapush.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy cordova/../build/cordovapush.app/Default-Portrait@2x~ipad.png1f4a241cd95fb641^7c9c251cd95fb641^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-Portrait@2x~ipad.png000000000080d041^914"CpResource "cordovapush/Resources/splash/Default-Portrait@2x~ipad.png" "cordova/../build/cordovapush.app/Default-Portrait@2x~ipad.png"    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-Portrait@2x~ipad.png" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"D1D06912-2C05-4283-A3C7-AD8F837B3A58-
+
+CCpResource cordovapush/Resources/splash/Default-Portrait~ipad.png cordova/../build/cordovapush.app/Default-Portrait~ipad.png
+s375380252.147965
+e375380252.151747
+r1
+xCpResource
+xcordovapush/Resources/splash/Default-Portrait~ipad.png
+xcordova/../build/cordovapush.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy cordova/../build/cordovapush.app/Default-Portrait~ipad.png8f00261cd95fb641^97e6261cd95fb641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default-Portrait~ipad.png000000000080d041^905"CpResource "cordovapush/Resources/splash/Default-Portrait~ipad.png" "cordova/../build/cordovapush.app/Default-Portrait~ipad.png"    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default-Portrait~ipad.png" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"49617DD4-D23F-4F47-90E7-01D81FE78415-
+
+CCpResource cordovapush/Resources/splash/Default@2x~iphone.png cordova/../build/cordovapush.app/Default@2x~iphone.png
+s375380252.153036
+e375380252.156790
+r1
+xCpResource
+xcordovapush/Resources/splash/Default@2x~iphone.png
+xcordova/../build/cordovapush.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy cordova/../build/cordovapush.app/Default@2x~iphone.png2f4f271cd95fb641^be2d281cd95fb641^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default@2x~iphone.png000000000080d041^893"CpResource "cordovapush/Resources/splash/Default@2x~iphone.png" "cordova/../build/cordovapush.app/Default@2x~iphone.png"    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default@2x~iphone.png" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"0770D10A-1D22-46EB-AE79-F625FBEC0FC7-
+
+CCpResource cordovapush/Resources/splash/Default~iphone.png cordova/../build/cordovapush.app/Default~iphone.png
+s375380252.158428
+e375380252.161594
+r1
+xCpResource
+xcordovapush/Resources/splash/Default~iphone.png
+xcordova/../build/cordovapush.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy cordova/../build/cordovapush.app/Default~iphone.png1aa8281cd95fb641^9a5f291cd95fb641^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Default~iphone.png000000000080d041^884"CpResource "cordovapush/Resources/splash/Default~iphone.png" "cordova/../build/cordovapush.app/Default~iphone.png"    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/Resources/splash/Default~iphone.png" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"027EB7E3-398B-4BFE-B5CD-AD0A0C0617F4-
+
+CCpResource www cordova/../build/cordovapush.app/www
+s375380251.771740
+e375380251.808928
+r1
+xCpResource
+xwww
+xcordova/../build/cordovapush.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy cordova/../build/cordovapush.app/wwwefa8c51bd95fb641^8620cf1bd95fb641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/www000000000080d041^775"CpResource www cordova/../build/cordovapush.app/www    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/www /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"9CEA2051-9A51-4ECC-BDBB-9522F3E66DD6-
+
+CGenerateDSYMFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app.dSYM /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush
+s375380254.193589
+e375380254.355966
+r1
+xGenerateDSYMFile
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app.dSYM
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Generating /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app.dSYMd5ae311ed95fb641^7d225b1ed95fb641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app.dSYM000000000080d041^860"GenerateDSYMFile cordova/../build/cordovapush.app.dSYM cordova/../build/cordovapush.app/cordovapush    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush -o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app.dSYM36"A24C4F5A-2E9E-4C60-BD37-8148C0750378-
+
+CLd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush normal i386
+s375380253.860695
+e375380254.186634
+r1
+xLd
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush0c79dc1dd95fb641^50c72f1ed95fb641^---0#0#0#--1978"Ld cordova/../build/cordovapush.app/cordovapush normal i386    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -L/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -F/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -filelist /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/cordovapush.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=4.3 /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/cordovapush36"1D92D09D-72EA-4960-B509-DBF0F9124DF7-
+
+CPhaseScriptExecution "Touch www folder" /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Script-304B58A110DAC018002A0835.sh
+s375380251.736995
+e375380251.763423
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'a0a7bd1bd95fb641^836ec31bd95fb641^---0#0#0#--22348"PhaseScriptExecution "Touch www folder" build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Script-304B58A110DAC018002A0835.sh    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER developpers    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build    setenv BUILD_ROOT /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build    setenv CACHE_ROOT /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502    setenv CCHROOT /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_OBJCPP_ARC_ABI YES    setenv CLASS_FILE_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build    setenv CONFIGURATION_TEMP_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH cordovapush.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/developpers/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH cordovapush.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/cordovapush.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME cordovapush.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH cordovapush.app/Executables    setenv EXECUTABLE_FOLDER_PATH cordovapush.app    setenv EXECUTABLE_NAME cordovapush    setenv EXECUTABLE_PATH cordovapush.app/cordovapush    setenv FILE_LIST /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH cordovapush.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME cordovapush.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER cordovapush/cordovapush-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include\" \"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/usr/local/lib/include\" \"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/UninstalledProducts/include\" \"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE cordovapush/cordovapush-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH cordovapush.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH cordovapush.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/cordovapush.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER developpers    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/cordovapush.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH cordovapush.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal/i386/cordovapush.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH cordovapush.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C60    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Objects-normal    setenv OBJROOT /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH cordovapush.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/PkgInfo    setenv PKGINFO_PATH cordovapush.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10A403    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH cordovapush.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH cordovapush.app/PrivateHeaders    setenv PRODUCT_NAME cordovapush    setenv PRODUCT_SETTINGS_PATH /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/cordovapush-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT cordovapush    setenv PROJECT_DERIVED_FILE_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/DerivedSources    setenv PROJECT_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PROJECT_FILE_PATH /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush.xcodeproj    setenv PROJECT_NAME cordovapush    setenv PROJECT_TEMP_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build    setenv PUBLIC_HEADERS_FOLDER_PATH cordovapush.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH cordovapush.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk    setenv SDK_NAME iphonesimulator6.0    setenv SDK_PRODUCT_BUILD_VERSION 10A403    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH cordovapush.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH cordovapush.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv SRCROOT /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME cordovapush    setenv TARGET_BUILD_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build    setenv TARGET_NAME cordovapush    setenv TARGET_TEMP_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build    setenv TEMP_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build    setenv TEMP_FILES_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build    setenv TEMP_FILE_DIR /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build    setenv TEMP_ROOT /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH cordovapush.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER developpers    setenv USER_APPS_DIR /Users/developpers/Applications    setenv USER_LIBRARY_DIR /Users/developpers/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH cordovapush.app/version.plist    setenv VERSION_INFO_BUILDER developpers    setenv VERSION_INFO_FILE cordovapush_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:cordovapush  PROJECT:cordovapush-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME cordovapush.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4G2008a    setenv XCODE_VERSION_ACTUAL 0452    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    setenv YACC yacc    /bin/sh -c /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/Script-304B58A110DAC018002A0835.sh36"510D3CF8-61ED-4A2B-9CF6-C9C9ACF1C130-
+
+CProcessInfoPlistFile /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Info.plist cordovapush/cordovapush-Info.plist
+s375380251.725438
+e375380251.729491
+r1
+xProcessInfoPlistFile
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Info.plist
+xcordovapush/cordovapush-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process cordovapush/cordovapush-Info.pliste5d1b91bd95fb641^54c3ba1bd95fb641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/cordovapush-Info.plist0000000000000000^900"ProcessInfoPlistFile cordova/../build/cordovapush.app/Info.plist cordovapush/cordovapush-Info.plist    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility cordovapush/cordovapush-Info.plist -genpkginfo /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app/Info.plist36"197E93F8-BA36-47B5-A6CA-9A83675453C1-
+
+CProcessPCH /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch.pth cordovapush/cordovapush-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375380253.038062
+e375380253.519516
+r1
+xProcessPCH
+x/var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch.pth
+xcordovapush/cordovapush-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile cordovapush/cordovapush-Prefix.pchbce6091dd95fb641^7e01851dd95fb641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/cordovapush-Prefix.pch0000000000000000^4204"ProcessPCH /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch.pth cordovapush/cordovapush-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.3 -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-generated-files.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-own-target-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-all-target-headers.hmap -iquote /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/cordovapush-project-headers.hmap -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/usr/local/lib/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/UninstalledProducts/include -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources/i386 -I/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/build/cordovapush.build/Debug-iphonesimulator/cordovapush.build/DerivedSources -F/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build --serialize-diagnostics /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch.dia -c /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordovapush/cordovapush-Prefix.pch -o /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/sj/cr2d3p5s1h95bmcsl_n6pd9c0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/cordovapush-Prefix-dhwfbwiwrtnnfqgdqkuuobxlaeht/cordovapush-Prefix.pch.d36"386A22E5-F76E-4713-8523-46DE1F367E0F-
+
+CTouch /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app
+s375380254.364129
+e375380254.371963
+r1
+xTouch
+x/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Touch /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.appf3565d1ed95fb641^52435f1ed95fb641^---0#0#0#--588"Touch cordova/../build/cordovapush.app    cd /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/developpers/softwares/adt-bundle-mac/sdk/tools:/Users/developpers/softwares/adt-bundle-mac/sdk/platform-tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/ios/cordova/../build/cordovapush.app36"BE8FDB97-47EA-4FDA-B172-7F93F48FE8DC-
+

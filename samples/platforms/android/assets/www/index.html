@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name = "format-detection" content = "telephone=no"/>
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Push Cordova</title>
+	</head>
+	<body onload="init();" id="stage" class="theme">
+		<h2>Push App</h2>
+		<input type="button" id="unsubscribe" value="unsubscribe" />
+
+		<div id="app-status-div">
+			<ul id="app-status-ul">
+
+			</ul>
+		</div>
+		
+		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+		<script type="text/javascript" charset="utf-8" src="lib/jquery-1.7.2-min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/pushConfig.js"></script>
+		<!-- Cordova Push Plugins -->
+		<script src="lib/CordovaPushNotification-Plugin-android.js"></script>
+		<script src="lib/CordovaPushNotification-Plugin-ios.js"></script>
+		<!-- Push wrapper lib -->
+		<script type="text/javascript" charset="utf-8" src="js/CordovaPushNotification-Interface.js"></script>
+		<!-- app specific JS -->
+		<script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			var onDeviceReady = function() {
+				app.start();
+			};
+
+			function init() {
+				document.addEventListener("deviceready", onDeviceReady, true);
+			}
+		</script>
+	</body>
+</html>

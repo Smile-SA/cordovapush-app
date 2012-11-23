@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:34
+-keep class com.google.android.c2dm.C2DMBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class fr.smile.mobile.cordovapush.C2DMReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class fr.smile.mobile.cordovapush.cordovapushActivity { <init>(...); }
+

@@ -1,0 +1,19 @@
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes.dex : \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/com/google/android/c2dm/C2DMBaseReceiver.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/com/google/android/c2dm/C2DMBroadcastReceiver.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/com/google/android/c2dm/C2DMessaging.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/com/plugin/C2DM/C2DMPlugin.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/BuildConfig.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/C2DMReceiver.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/cordovapush.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/cordovapushActivity.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/Manifest$permission.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/Manifest.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/R$attr.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/R$drawable.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/R$layout.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/R$string.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/R$xml.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/fr/smile/mobile/cordovapush/R.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/classes/io/cordova/hellocordova/cordovapush.class \
+/Users/developpers/Workspace/cordovaClientCordovaPush/cordovapush/platforms/android/bin/dexedLibs/cordova-2.2.0-2b6c2af0b1a6fdace7a0b8e4bb57c41a.jar \
